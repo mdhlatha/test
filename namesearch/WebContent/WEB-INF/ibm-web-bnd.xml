@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webappbnd:WebAppBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappbnd="webappbnd.xmi" xmi:id="WebAppBinding_1176296955265" virtualHostName="default_host">
+  <webapp href="WEB-INF/web.xml#WebApp_ID"/>
+  <resRefBindings xmi:id="ResourceRefBinding_1176298112640" jndiName="jdbc/tlocal_emedicaid">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1176298112640"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1176298158421" jndiName="jdbc/adcdb_emedicaid">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1176298158421"/>
+  </resRefBindings>
+ 
+</webappbnd:WebAppBinding>
